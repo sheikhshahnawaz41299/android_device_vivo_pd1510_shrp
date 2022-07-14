@@ -115,6 +115,17 @@ TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_INCLUDE_CRYPTO := true
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 
+# shrp config
+SHRP_MAINTAINER := Shahnawaz
+SHRP_DEVICE_CODE := pd1510
+SHRP_OFFICIAL := true
+SHRP_PATH := device/vivo/pd1510
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+# Dark Mode
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+
 # LZMA ramdisk compression
 LZMA_RAMDISK_TARGETS := recovery
 LZMA_COMPRESSION := -9
